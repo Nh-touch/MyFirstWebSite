@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>杨高高一(14)班</title>
+<meta http-equiv="refresh"content="9;URL=indexfiles/HZJ1.htm">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+
+<meta name="keywords"content="何知俊的主页,建设中...,杨浦高级中学，05届高一（14）班" />
+<meta name="robots"content="all" />
+<meta name="description"content="何知俊的主页,建设中...,杨浦高级中学，05届高一（14）班" />
+<meta name="author"content="何知俊" />
+<SCRIPT LANGUAGE="JavaScript"> 
+
+var max=0; 
+function textlist() { 
+max=textlist.arguments.length; 
+for (i=0; i<max; i++) 
+this[i]=textlist.arguments[i]; 
+} 
+tl = new textlist( 
+" 欢迎来到杨浦高级中学高一(14)班的主页", 
+"希望您能喜欢这片属于（14）班的土地。。。", 
+"下面就让我们一起进入（14）班的主页~", 
+"", 
+"" 
+); 
+
+
+var x = 0; pos = 0; 
+var l = tl[0].length; 
+function textticker() { 
+document.tickform.tickfield.value = tl[x].substring(0, pos) + "_"; 
+if(pos++ == l) { 
+pos = 0; 
+setTimeout("textticker()", 2000); 
+if(++x == max) x = 0; 
+l = tl[x].length; 
+} else 
+setTimeout("textticker()", 50); 
+} </script><style> 
+BODY{ 
+scrollbar-base-color:#FFFFFF; 
+scrollbar-face-color:#CEFDFD; 
+scrollbar-track-color:#DAD8CF; 
+scrollbar-arrow-color:#aecde7; 
+scrollbar-3dlight-color:#09F7F7; 
+scrollbar-highlight-color:#FFFFFF; 
+scrollbar-shadow-color:#09F7F7; 
+scrollbar-darkshadow-color:#FFFFFF;} 
+</style> 
+</HEAD>  <body bgcolor="#FFFFFF" OnLoad="textticker()"> 
+<form name=tickform>
+  <p> 
+    <input type="text" name="tickfield" size="80" style="background-color: rgb=#0066FF; color: rgb=#0066FF; cursor: default; font-family: Arial; font-size: 12px" value="">
+  </p>
+</form>
+
+<p><img border="0" src="logo.jpg" width="1024" height="768"></p>
+
+</body>
+
+</html>
